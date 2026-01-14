@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.naps2.Naps2</id>
+    <metadata_license>FSFAP</metadata_license>
+    <project_license>GPL-2.0-or-later</project_license>
+
+    <name>NAPS2 - Not Another PDF Scanner</name>
+    <summary>Scan documents to PDF and more, as simply as possible.</summary>
+    <description>
+        <p>
+            NAPS2 on Linux allows you to scan from USB (using SANE) and network scanners. Use your chosen settings, or
+            set up multiple profiles for different devices and configurations. Once you've finished scanning, you can
+            save, email, or print with only a couple clicks. Save to PDF, TIFF, JPEG, PNG, or other file types.
+        </p>
+        <p>
+            Easily rotate, crop, and rearrange scanned pages. Adjust brightness, contrast, and apply automatic document
+            corrections to make your scanned pages look great. Use OCR to add searchable text to your PDFs in any of
+            over 100 languages. Use batch scanning, advanced profile settings, and an optional CLI to automate tedious
+            tasks.
+        </p>
+        <p>
+            NAPS2 is available on Windows, Mac, and Linux. Share your scanners over the network so you can use them
+            across devices and operating systems.
+        </p>
+    </description>
+    <url type="homepage">https://www.naps2.com</url>
+    <url type="bugtracker">https://github.com/cyanfish/naps2/issues</url>
+    <url type="help">https://www.naps2.com/support</url>
+    <url type="contribute">https://www.naps2.com/contribute</url>
+    <url type="donation">https://www.naps2.com/donate</url>
+    <url type="translate">https://translate.naps2.com</url>
+    <url type="vcs-browser">https://github.com/cyanfish/naps2</url>
+    <developer_name>Ben Olden-Cooligan</developer_name>
+
+    <launchable type="desktop-id">com.naps2.Naps2.desktop</launchable>
+    <provides>
+        <binary>naps2</binary>
+    </provides>
+
+    <content_rating type="oars-1.1" />
+    <categories>
+        <category>Graphics</category>
+        <category>Office</category>
+    </categories>
+    <branding>
+        <color type="primary">#6688aa</color>
+    </branding>
+    <keywords>
+        <keyword translate="no">NAPS2</keyword>
+        <keyword translate="no">SANE</keyword>
+        <keyword translate="no">ESCL</keyword>
+        <keyword translate="no">PDF</keyword>
+        <keyword translate="no">TIFF</keyword>
+        <keyword>scan</keyword>
+        <keyword>scanning</keyword>
+        <keyword>scanner</keyword>
+        <keyword>duplex</keyword>
+        <keyword>ADF</keyword>
+        <keyword>OCR</keyword>
+    </keywords>
+
+    <requires>
+        <display_length compare="ge">medium</display_length>
+    </requires>
+    <recommends>
+        <display_length compare="ge">large</display_length>
+        <control>pointing</control>
+        <control>keyboard</control>
+        <control>console</control>
+        <control>tablet</control>
+        <control>touch</control>
+    </recommends>
+
+    <screenshots>
+        <screenshot type="default">
+            <image>https://www.naps2.com/images/naps2-gtk-screen-desktop-small.png</image>
+            <caption>Main scanning interface</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-desktop.png</image>
+            <caption>Desktop view with scanned documents</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-profile-settings.png</image>
+            <caption>Scanner profile settings</caption>
+        </screenshot>
+        <screenshot>
+            <image>https://www.naps2.com/images/naps2-gtk-screen-ocr-setup.png</image>
+            <caption>OCR language setup</caption>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="8.2.1" date="2025-08-31">
+            <description>
+                <p>Improvements and bug fixes including Windows arm64 TWAIN support, OCR compatibility improvements, SANE crash fixes on Mac, and various scanner compatibility enhancements.</p>
+            </description>
+        </release>
+        <release version="8.2.0" date="2025-06-08">
+            <description>
+                <p>Major release featuring Microsoft Store availability, "Edit with" external editor support, scanner sharing improvements, and arm64 Windows installer.</p>
+            </description>
+        </release>
+        <release version="8.1.0" date="2025-03-21">
+            <description>
+                <p>Added custom resolution selection and "New Outlook" email provider support.</p>
+            </description>
+        </release>
+        <release version="8.0.0" date="2024-10-15">
+            <description>
+                <p>Major version upgrade with .NET 9 support and numerous improvements.</p>
+            </description>
+        </release>
+    </releases>
+</component>
