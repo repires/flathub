@@ -128,6 +128,9 @@ def main() -> None:
         "com.yubico.yubioath",
         "com.icanblink.blink",
         "com.github.wwmm.pulseeffects",
+        # beta branch is eol
+        "org.nicotine_plus.Nicotine",
+        "ru.linux_gaming.PortProton",
     }
 
     stable = get_eol_refs("x86_64", "flathub") | get_eol_refs("aarch64", "flathub")
